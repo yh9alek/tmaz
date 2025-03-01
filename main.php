@@ -6,4 +6,4 @@ class Program {
     }
 }
 
-(new Program)->main();
+Program::main();
