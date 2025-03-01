@@ -2,10 +2,14 @@
 
 use c\C;
 
-class Program {
-    public static function main() {
+class Test {
+    public function main() {
         (new C)->test();
     }
 }
 
-Program::main();
+(new class {
+    public static function run() {
+        (new Test)->main();
+    }
+})->run();
