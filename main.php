@@ -1,8 +1,10 @@
 <?php
 
+use c\C;
+
 class Program {
     public static function main() {
-        echo 'Hello World';
+        (new C)->test();
     }
 }
 
