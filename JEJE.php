@@ -1,3 +1,3 @@
 <?php
 
-echo 'Más pruebas (Modificado)';
+echo 'Más pruebas (Modificando más)';
